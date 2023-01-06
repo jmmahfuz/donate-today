@@ -1,14 +1,147 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none;
-    display: inline-block;
-}
-li{
-    list-style: none;
+.banner_title{
+    text-align: center;
 }
 
-/* common css end */
+
+.banner{
+    background-image: url(../images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 175px 307px;
+}
+.title{
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 700;
+
+}
+.description{
+    color: #FFF;
+    font-size: ;
+    font-weight: ;
+}
+.primary_btn{
+    height: 64px;
+    padding: 12px 18px;
+    color: #FFF ;
+    background-color: #FF5959;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.main{
+    text-align: center;
+}
+.main h1{
+    padding-top: 100px;
+}
+.all_donate{
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.all_donate h3{
+    height: 100px;
+    width: 136px;
+    background-color: #FAFAFA;
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 46px;
+}
+.all_donate .mark{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+}
+.last{
+    padding-top: 50px;
+}
+.secend_btn{
+    padding-top: 20px;
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+.one{
+    height: 267px ;
+    width: 260px;
+    background-color: #FF5959;
+    padding: 40px 20px ;
+}
+.two{
+    height: 267px ;
+    width: 260px;
+    background-color: #FF5959;
+    padding: 40px 20px ;
+}
+.three{
+    height: 267px ;
+    width: 260px;
+    background-color: #FF5959;
+    padding: 40px 20px ;
+}
+
+.main_description{
+    display: flex;
+    align-items: center;
+    padding: 50px 200px;
+}
+.right img{
+    width: 500px;
+    height: 500px;
+    padding: 50px ;
+}
+.left_right img{
+    width: 500px;
+    height: 500px;
+    padding-right: 50px;
+}
+.last_title{
+    text-align: center;
+}
+.box{
+    width: 900px;
+    height: 200px;
+    background-color: #fad7d7;
+    text-align: center;
+    margin: 40px 230px 100px;
+}
+.email{
+    height: 50px;
+    width: 30%;
+    color: thistle;
+    border-radius: 5px;
+    border: none;
+    margin-top: 70px;
+    padding-left: 20px;
+}
+.button{
+    height: 50px;
+    padding: 12px 18px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    color: #FFF;
+    background-color: #FF5959;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer{
+    height: 150px;
+    background-color: black;
+    color: #FF5959;
+    text-align: center;
+    padding-top: 40px;
+}
+.title_1{
+
+    font-size: 60px;
+    font-weight: 700;
+}
